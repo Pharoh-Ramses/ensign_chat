@@ -1,4 +1,5 @@
 import SignUpFormProvider from '@/components/forms/sign-up/form-provider'
+import RegistrationFormStep from '@/components/forms/sign-up/registration-step'
 import React from 'react'
 
 const Page = () => {
@@ -7,7 +8,7 @@ const Page = () => {
         <div className="flex flex-col h-full gap-3">
                 <SignUpFormProvider>
                     <div className="flex flex-col gap-3">
-                        <h1 className="text-2xl font-bold">Sign Up</h1>
+                        <RegistrationFormStep></RegistrationFormStep>
                     </div>
                 </SignUpFormProvider>
         </div>

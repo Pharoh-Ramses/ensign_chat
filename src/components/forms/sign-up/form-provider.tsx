@@ -1,5 +1,7 @@
-import { AuthContextProvider } from "@/app/context/use-auth-context";
-import { useSignUpForm } from "@/app/hooks/sign-up/use-sign-up";
+"use client"
+
+import { AuthContextProvider } from "@/context/use-auth-context";
+import { useSignUpForm } from "@/hooks/sign-up/use-sign-up";
 import { Loader } from "@/components/loader";
 import React from "react";
 import { FormProvider } from "react-hook-form";
